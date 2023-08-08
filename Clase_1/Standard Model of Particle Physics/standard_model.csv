@@ -1,0 +1,18 @@
+﻿ID,Name,Symbol,Type,Subtype,Generation,Mass (eV/c^2),Charge (n/3 e),Spin,Force Type,Charge Type,Strong Interaction,Electromagnetic Interaction,Weak Interaction,Higgs Interaction,Display Row,Display Column,Year of Discovery,Discovered By,Image, URI
+1,Up,u,Fermion,Quark,1,2400000,2,0.5,,,TRUE,TRUE,TRUE,TRUE,1,1,1968,SLAC,Images\Up.jpg,http://en.wikipedia.org/wiki/Up_quark
+2,Down,d,Fermion,Quark,1,4800000,2,0.5,,,TRUE,TRUE,TRUE,TRUE,2,1,1968,SLAC,Images\Down.jpg,http://en.wikipedia.org/wiki/Down_quark
+3,Charm,c,Fermion,Quark,2,1270000000,2,0.5,,,TRUE,TRUE,TRUE,TRUE,1,2,1974,SLAC / BNL,Images\Charm.jpg,http://en.wikipedia.org/wiki/Charm_quark
+4,Strange,s,Fermion,Quark,2,104000000,-1,0.5,,,TRUE,TRUE,TRUE,TRUE,2,2,1968,SLAC,Images\Strange.jpg,http://en.wikipedia.org/wiki/Strange_quark
+5,Top,t,Fermion,Quark,3,1.712E+11,-1,0.5,,,TRUE,TRUE,TRUE,TRUE,1,3,1995,Fermilab,Images\Top.jpg,http://en.wikipedia.org/wiki/Top_quark
+6,Bottom,b,Fermion,Quark,3,4200000000,-1,0.5,,,TRUE,TRUE,TRUE,TRUE,2,3,1977,Lederman et al.,Images\Bottom.jpg,http://en.wikipedia.org/wiki/Bottom_quark
+7,Electron,e,Fermion,Lepton,1,2.2,0,0.5,,,FALSE,TRUE,TRUE,TRUE,3,1,1897,Thomson,Images\Electron.jpg,http://en.wikipedia.org/wiki/Electron
+8,Electron Neutrino,ve,Fermion,Lepton,1,511000,0,0.5,,,FALSE,FALSE,TRUE,TRUE,4,1,1956,Cowan and Reines,Images\Electron Neutrino.jpg,http://en.wikipedia.org/wiki/Electron_neutrino
+9,Muon,μ,Fermion,Lepton,2,170000,0,0.5,,,FALSE,TRUE,TRUE,TRUE,3,2,1937,Anderson,Images\Muon.jpg,http://en.wikipedia.org/wiki/Muon
+10,Muon Neutrino,vμ,Fermion,Lepton,2,105700000,-3,0.5,,,FALSE,FALSE,TRUE,TRUE,4,2,1962,Lederman et al.,Images\Muon Neutrino.jpg,http://en.wikipedia.org/wiki/Muon_neutrino
+11,Tau,τ,Fermion,Lepton,3,15500000,-3,0.5,,,FALSE,TRUE,TRUE,TRUE,3,3,1975,Perl et al.,Images\Tau.jpg,http://en.wikipedia.org/wiki/Tau_(particle)
+12,Tau Neutrino,vτ,Fermion,Lepton,3,1777000000,-3,0.5,,,FALSE,FALSE,TRUE,TRUE,4,3,2000,Fermilab,Images\Tau Neutrino.jpg,http://en.wikipedia.org/wiki/Tau_neutrino
+13,Photon,γ,Boson,Gauge Boson,,0,0,1,Electromagnetic,Electric,FALSE,TRUE,FALSE,FALSE,1,4,,,Images\Photon.jpg,http://en.wikipedia.org/wiki/Photon
+14,Gluon,g,Boson,Gauge Boson,,0,0,1,Strong,Color,TRUE,FALSE,FALSE,FALSE,2,4,1979,"DESY, Hamburg, Germany",Images\Gluon.jpg,http://en.wikipedia.org/wiki/Gluon
+15,Z Boson,Z,Boson,Gauge Boson,,91200000000,0,1,Weak,Flavor,FALSE,TRUE,TRUE,TRUE,3,4,1983,UA1 / UA2 collaborations,Images\Z Boson.jpg,http://en.wikipedia.org/wiki/W_and_Z_bosons
+16,W Boson,W,Boson,Gauge Boson,,80400000000,1,1,Weak,Flavor,FALSE,TRUE,TRUE,TRUE,4,4,1983,UA1 / UA2 collaborations,Images\W Boson.jpg,http://en.wikipedia.org/wiki/W_and_Z_bosons
+17,Higgs Boson,H,Boson,Scalar Boson,,1.253E+11,0,0,,,FALSE,FALSE,FALSE,TRUE,5,4,2012,ATLAS and CMS,Images\Higgs Boson.jpg,http://en.wikipedia.org/wiki/Higgs_boson
