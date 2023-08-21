@@ -1,0 +1,1 @@
+awk -F "," 'NR>1,NF=1 {print}' indices_refraccion.csv > materiales.txt
