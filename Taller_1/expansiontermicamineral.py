@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 29 13:41:47 2023
-
-@author: davidysofia
-"""
-
 import mineral as mn
 import pandas as pd
 import numpy as np

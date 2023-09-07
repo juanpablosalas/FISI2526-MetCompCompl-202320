@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Aug 28 21:07:40 2023
-
-@author: davidysofia
-"""
 import mineral as Min
 def organizar_minerales():
     
