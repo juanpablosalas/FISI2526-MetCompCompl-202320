@@ -27,13 +27,16 @@ class ExpansionTermicaMineral(mn.Minerales):
             self.desviacion=np.std(self.coeficiente)
      def grafica_v_a(self):
          fig,axs = plt.subplots(nrows=1,ncols=2,figsize=(10,5))
-         axs[0].plot(self.Volumen,self.Temperatura)
-         axs[0].set_xlabel("Volumen(cm^3)")
-         axs[0].set_ylabel("Temperatura(ºC")
-         axs[1].plot(self.coeficiente, self.Temperatura)
-         axs[1].set_xlabel("Coeficiente(α)")
-         axs[1].set_ylabel("Temperatura(ºC")
-         plt.show()
+         axs[0].plot(self.Temperatura, self.Volumen)
+         axs[0].set_xlabel("Temperatura(ºC") 
+         axs[0].set_ylabel("Volumen(cm^3)")
+         axs[0].set_title("Volumen en Funcion de la Temperatura")
+         axs[1].plot(self.Temperatura,self.coeficiente)
+         axs[1].set_xlabel("Temperatura(ºC")
+         axs[1].set_ylabel("Coeficiente(α)")
+         axs[1].set_title("Coeficiente en Funcion de la Temperatura")
+         return fig,axs
+     
      def unir_todo(self):
          self.organizar_datos()
          self.calculo_coeficiente()
