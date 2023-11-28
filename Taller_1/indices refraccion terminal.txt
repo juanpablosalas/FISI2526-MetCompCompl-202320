@@ -1,0 +1,11 @@
+1.1 Lista de Medios Opticos
+awk -F "," 'NR>1,NF=1 {print}' indices_refraccion.csv > materiales.txt
+
+1.2 Descarga de Archivos(Todas las carpetas estan dentro de "Categoria")
+while IFS=',' read categoria a b link
+do
+mkdir -p "$categoria"
+wget -O "$b" "$link"
+mv "$b" "$categoria"
+done < indices_refraccion.csv
+

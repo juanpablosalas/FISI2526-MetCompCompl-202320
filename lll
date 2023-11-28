@@ -1,0 +1,9 @@
+def integralab(f,a,b,n):
+    integral=(b-a)/2
+    I=0
+    pesos=GetWeights_legendre(n)
+    raices=GetAllRoots_legendre(n)
+    for i in range(n):
+        I+=pesos[i]*f(((raices[i]*(b-a))/2)+((b+a)/2))
+    integral*=I
+    return integral
